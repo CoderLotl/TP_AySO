@@ -1,0 +1,120 @@
+sudo ./VBoxLinuxAdditions.run
+su -
+sudo ./VBoxLinuxAdditions.run
+sudo visudo
+su -
+sudo visudo
+sudo ./VBoxLinuxAdditions.run
+sudo rcvoxadd reload
+sudo apt update && apt upgrade
+sudo visudo
+sudo nano /etc/gdm3/custom.conf
+sudo systemctl restart gdm3
+sudo apt update
+sudo apt upgrade
+sudo apt install finger
+sudo apt install neofetch
+sudo neofetch
+cat > test.txt
+nano ./test.txt
+clear
+ssh-keygen
+cd ..
+cd ./.ssh
+ls
+cd ./vboxuser
+ls
+cd ./.ssh
+ls
+cat $HOME/.ssh/*.pub
+cd
+ls
+cd ..
+mkdir repogit
+cd
+mkdir repogit
+cd repogit
+git clone https://github.com/CoderLotl/TP_AySO
+apt install git
+sudo apt install git
+git clone https://github.com/CoderLotl/TP_AySO
+ls
+sudo rm TP_AySO -r
+git clone git@github.com:CoderLotl/TP_AySO.git
+cd TP_AySO/
+pwd
+ls -l
+cat /etc/os-release
+man grep
+grep HOME_URL /etc/os-release
+grep home_url /etc/os-release
+grep -i Home_url /etc/os-release
+whoami
+echo "Usuario=$(whoami)" > datos_usuario.txt
+ls
+nano datos_usuario.txt
+git add .
+git config --global user.email "j.e.delmar.87@gmail.com"
+git config --global user.name "CoderLotl"
+git commit -m "ADD: agregado ejercicio sobre datos_usuarios.txt"
+git status
+grep "model name" /proc/cpuinfo
+grep "model name" /proc/cpuinfo | tail -n1
+grep "model name" /proc/cpuinfo | tail -n1 | >> datos_usuario.txt
+nano datos_usuario.txt
+grep "model name" /proc/cpuinfo | tail -n1  >> datos_usuario.txt
+nano datos_usuario.txt
+git add .
+git commit -m "feat: añadiendo información de CPU"
+grep /etc/passwd
+cat /etc/passwd
+grep "nologin" /etc/passwd
+grep -v "nologin" /etc/passwd
+grep -v "nologin" /etc/passwd | sort -n -k7
+grep -v "nologin" /etc/passwd | sort -n -k7 > lista_ordenada.txt
+ls
+nano lista_ordenada.txt
+git add .
+git commit -m "ADD: listado de usuarios ordenada"
+tcpdump
+sudo tcpdump
+echo "Comando para hacer dump traffic: tcpdump" > comando_dump_net.txt
+man network
+man traffic
+man tcpdump
+man dump
+man "traffic"
+grep "traffic"
+apropos traffic
+echo "Comando para ubicar tcpdump por keyword: apropos. Uso: apropos traffic." >> comando_dump_net.txt
+git add .
+git commit -m "ADD: comando para capturar y analizar el trafico de red"
+ls
+cat << EOF > test.txt
+aaaaa
+EOF
+
+ls
+nano test.txt
+rm test.txt
+ls
+cat << EOF > README.md
+Alumno: Jerónimo Eduardo Delmar
+División: 315-2
+Turno: TN
+EOF
+
+git add .
+git commit -m << EOF
+feat(doc): se añade documentación
+
+
+git commit -m << EOF
+feat(doc): se añade información al README
+
+Se utiliza técnica HereDoc para agregar documentación al archivo de README.
+EOF
+
+git commit -m 'feat(doc): se añade información al README
+Se agrega la información de alumno, división, y turno, mediante línea de comandos.'
+history -a
