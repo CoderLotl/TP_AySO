@@ -1,0 +1,2 @@
+Comando para hacer dump traffic: tcpdump
+Comando para ubicar tcpdump por keyword: apropos. Uso: apropos traffic.
