@@ -1,1 +1,2 @@
 Usuario=vboxuser
+model name	: AMD A8 PRO-7600B R7, 10 Compute Cores 4C+6G
